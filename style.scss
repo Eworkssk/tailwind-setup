@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    
+body {
+    @apply flex flex-col items-center justify-center h-screen text-center;
+}
+
+h1 {
+    @apply text-2xl text-gray-700 my-4;
+}
+
+a {
+    @apply px-4 py-2 bg-blue-700 text-white rounded shadow hover:shadow-xl hover:bg-blue-800 transition duration-200 inline-block;
+}
